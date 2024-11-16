@@ -1,0 +1,1 @@
+!function(){function e(e,n){e.forEach((e=>{e.isIntersecting&&e.target.classList.add("visible")}))}document.addEventListener("DOMContentLoaded",(function(){const n=new IntersectionObserver(e,{threshold:.05});document.querySelectorAll(".has-animation").forEach((e=>n.observe(e)))}))}();
